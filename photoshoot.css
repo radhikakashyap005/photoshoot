@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "SchnyderM-Demi-Web";
+}
+
+.navbar-brand {
+    font-size: xx-large;
+}
+
+#hover :hover {
+    color: white;
+}
+
+#slider-navbar {
+    position: absolute;
+    z-index: 9999999;
+    width: 100%;
+}
+
+.carousel{
+    width: 100%;
+    overflow-x: clip;
+}
+
+#navbarNav{
+    font-size: 20px;
+}
+
+.container {
+    margin-top: 4%;
+    display: flex;
+}
+
+.carousel-inner{
+    /* filter: grayscale(2); */
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+/* #row{
+    display: flex;
+
+} */
+
+#col1 {
+    font-size: 35px;
+    color: black;
+    float: left;
+    width: 50%;
+    /* justify-content: end;
+    align-items: end; */
+
+}
+
+#col2 {
+    font-size: 20px;
+    color: rgb(51, 50, 50);
+    width: 50%;
+
+
+}
+
+.pin {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#photo {
+    width: 50%;
+    margin-right: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+
+#photo :hover{
+    filter: grayscale(1);
+    transform: scale(1.01);
+}
+
+.blog-post {
+    text-align: center;
+
+}
+
+.blog-post2 {
+    text-align: center;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+.column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 6px;
+}
+
+.column img {
+    width: 100%;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+/*  portfoilo images html grid seprate page media for the images grid  */
+
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/* portfoilo images html grid seprate page responsive media for the grid */
+
+#grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#grid img {
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+
+/* #grid img{
+    width: 100%;
+} */
+
+#grid :hover {
+    filter: grayscale(2);
+    transform: scale(1.01);
+
+}
+
+.box{
+    background-color: #f6f6f4;
+    display: flex;
+}
+
+.box img{
+    width: 100%;
+    padding-right: 22%;
+    padding-bottom: 21%;
+    
+}
+
+.box1{
+    padding-inline-start: 10%;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    align-self: center;
+    width: 35%;
+}
+
+.box2{
+    width: 35%; 
+    font-size: 30px;
+    padding-inline-start: 10%;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    align-self: center;
+    text-align:center;
+}
+
+.black-section{
+    background-color: black;
+    display: flex;
+    
+}
+
+.big-font{
+    width: 60%;
+}
+
+.has-inlinefonts{
+    color: white;
+    font-size: 200px;
+}
+
+.big-image{
+    width: 40%;
+    padding-left: 116px;
+}
+
+.listitems{
+    display: flex;
+    color: white;
+    
+}
+
+.has-listitems{
+    margin-left: 105px;
+}
+
+/* another same div with big fonts  */
+
+/* .another-black-section{
+    display: flex;
+
+}
+
+.image-list{
+    background-color: aqua;
+    width: 30%;
+}
+
+.large-font{
+    background-color: gray;
+    width: 70%;
+
+}
+
+.large-font img{
+    width: 100%;
+} */
+
+#heading{
+    text-align: center;
+}
+
+
+
+/* <!-- next another grid of 6 flex box --> */
+
+.grid-flexbox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.grid-flexbox :hover {
+    filter: brightness();
+    transform: scale(1.01);
+    cursor: pointer;
+
+}
+
+
+.flexbox1{
+    width: 25%;
+    margin: 5px;
+}
+
+.flexbox1 img{
+    width: 100%;
+    height: 320px;
+    filter: grayscale(1);
+}
+
+
+#footer{
+    font-size: 12px;
+    margin-left: 40px;
+
+}
+
+.top-button{
+    display: flex;
+   
+}
+
+.scroll-button{
+     margin-left: 64%;
+     text-decoration: none;
+     color: black;
+     font-size: 12px;
+
+}
